@@ -1,8 +1,7 @@
 package astronomicalObservation;
 
-public class ObservationContainerInjector implements ObservationServiceInjector {
+public class ObservationContainerInjector {
 
-	@Override
 	public Observer getObserver() {
 		// TODO Auto-generated method stub
 		return new ObservationApp(new PlanetService());

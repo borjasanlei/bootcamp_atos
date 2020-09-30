@@ -8,7 +8,7 @@ public class ObservatoryClient {
 		Double coordinate1 = 13.56;		
 		Double coordinate2 = 77.2;
 		
-		ObservationServiceInjector injector;
+		ObservationContainerInjector injector;
 		Observer app;
 		
 		// Investigate the object
